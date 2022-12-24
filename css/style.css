@@ -1,0 +1,175 @@
+body {
+    background: url('../img/background1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* ---- ---- HEADER ---- ----  */
+.cara {
+    border-radius: 100%;
+    height: 50px;
+    width: 45px;
+}
+
+.nombre {
+    font-size: 20px;
+    font-weight: 700;
+    color: #f881a9;
+    
+}
+
+.links > a{
+    font-size: 25px;
+    margin-left: 25px;
+    color: #FFFF !important;
+    padding: 8px 20px !important;
+    border-radius: 2px;
+}
+
+.cv:hover {
+    background: #FFC4C4;
+    color: #fff !important;
+}
+
+.github:hover {
+    background: #F6EFA6;
+}
+
+.linkedin:hover {
+    background: #B2A4FF;
+}
+
+.email:hover {
+    background: #F3D1F4;
+}
+
+.whatsapp:hover {
+    background: #9ED5C5;
+}
+
+
+/* ---- ---- MAIN ---- ---- */
+
+.titulo {
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 50px;
+    background: linear-gradient(to bottom, #C0EEE4 0%, #BA94D1 40%, #F8F988 250%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.subtitulo {
+    /* font-weight: ; */
+    margin-bottom: 20px;
+    color: #FFACC7;
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+}
+
+.contenedor-web .thumb img {
+    border-radius: 8px;
+    transition: all .5s ease;
+    opacity: 0.7;
+}
+
+.contenedor-web .thumb img:hover {
+    opacity: 1;
+}
+
+.titulo-web {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    background: rgba(255,255,255,.5);
+    font-weight: bold;
+}
+
+.nota {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.react {
+    color: #BCCEF8;
+    font-size: 35px;
+    margin-left: 10px;
+}
+
+.java{
+    color: #FFDCA9;
+    font-size: 35px;
+    margin-left: 10px;
+}
+
+.diseño{
+    color: #62B6B7;
+    font-size: 35px;
+    margin-left: 10px;
+}
+
+
+.fa-stack-overflow {
+    font-size: 30px;
+    color: #f48024;
+    margin-left: 10px;
+}
+
+
+/* ---- ---- FOOTER ---- ---- */
+
+footer {
+    background-color: #FFACC7;
+}
+
+footer .github:hover {
+    background: #F6EFA6;
+    
+}
+
+
+
+/* ---- ---- MEDIAQUERIES ---- ---- */
+
+@media (max-width: 992px) {
+    .contenedor-web .thumb img {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 500px) {
+    .titulo {
+        font-size: 30px;
+    }
+    
+    .subtitulo {
+        font-size: 25px;
+    }
+
+    .titulo-web {
+        font-weight: bold;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 380px) {
+    header .navbar-brand {
+        order: 2;
+        width: 100%;
+        margin-top: 20px;
+        justify-content: center;
+    }
+
+    button {
+        margin-left: auto;
+        order: 1;
+    }
+}
+
+

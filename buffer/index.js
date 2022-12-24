@@ -1,0 +1,1 @@
+const hola = 'es un mensaje';
